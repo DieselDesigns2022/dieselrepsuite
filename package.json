@@ -1,0 +1,36 @@
+{
+  "name": "repsuite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "@uploadthing/react": "^7.0.0",
+    "@uploadthing/shared": "^7.0.0",
+    "date-fns": "^3.6.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "resend": "^3.3.0",
+    "stripe": "^16.0.0",
+    "uploadthing": "^7.0.0",
+    "zod": "^3.23.8",
+    "next": "14.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5"
+  }
+}
